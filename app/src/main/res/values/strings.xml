@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CabinetApp</string>
+    <string name="feedback">请选择反馈类型</string>
+    <string name="backmsg">请输入反馈信息（200字以内）</string>
+</resources>

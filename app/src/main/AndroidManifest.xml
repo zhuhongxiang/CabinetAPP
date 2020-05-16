@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cabinetapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.PickupRecordDetailActivity"></activity>
+        <activity android:name=".activity.PickupRecordActivity" />
+        <activity android:name=".activity.ReceiverEditActivity" />
+        <activity android:name=".activity.ReceiverNewActivity" />
+        <activity android:name=".activity.SenderEditActivity" />
+        <activity android:name=".activity.SenderNewActivity" />
+        <activity android:name=".activity.ReceiverListActivity" />
+        <activity android:name=".activity.SenderListActivity" />
+        <activity android:name=".activity.CompanyListActivity" />
+        <activity android:name=".activity.RecordDetailActivity" />
+        <activity android:name=".activity.SendInfoActivity" />
+        <activity android:name=".activity.SendSelectBinActivity" />
+        <activity android:name=".activity.RecordActivity" />
+        <activity android:name=".activity.PickupActivity" />
+        <activity android:name=".activity.PickupDetailActivity" />
+        <activity android:name=".activity.SendSelectCabActivity" />
+        <activity android:name=".activity.MainActivity" />
+        <activity android:name=".utils.TimeCount" />
+        <activity android:name=".utils.GlobalData" />
+        <activity android:name=".ResponseBean" />
+        <activity android:name=".activity.ResetPwdActivity" />
+        <activity android:name=".activity.RegisterActivity" />
+        <activity android:name=".activity.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
